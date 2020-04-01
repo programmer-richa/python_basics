@@ -1,0 +1,5 @@
+principle = int(input("Enter principle: "))
+rate_of_interest = float(input("Enter rate of interest: "))
+time = int(input("Enter time (in months): "))
+amount = principle * ( 1 + rate_of_interest * time)
+print("Amount: ", amount)
